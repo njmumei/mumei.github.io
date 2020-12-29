@@ -1,0 +1,100 @@
+
+/*===========================
+    10.CONTACT css 
+===========================*/
+
+.section_header {
+	font-size:32px;
+	font-weight:400;	
+	margin:16px 0 32px;
+	line-height:1em
+}
+.cases {
+	background:#f8f9fb;
+	padding:20px 0
+}
+.case .container {
+	position:relative;
+	min-height:240px;
+	padding:30px 40px;
+	background:#fff;
+	transition:0.25s ease;
+	margin-bottom:30px;
+	overflow:hidden;
+	border-radius:2px;
+	position:relative;
+	z-index:1
+}
+.case .container .button .fa {
+	transition:0.25s;
+	margin-right:0
+}
+.case .container:hover {
+	box-shadow:0 15px 35px rgba(0,0,0,0.1)
+}
+.case .container:hover h3 {
+	text-decoration:underline;
+	text-decoration-color:rgba(44,44,62,0.4)
+}
+.case .container:hover .button .fa {
+	margin-left:4px;
+	margin-right:-4px
+}
+.case .container h3 {
+	margin-bottom:-20px;
+	color:#2c2c3e
+}
+.case .container:before {
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:4px
+}
+.case .container:hover .button:before {
+	left:0
+}
+.case .container:hover .button:after {
+	top:0
+}
+.case button {
+	margin-top:16px
+}
+.case h6 {
+	margin-bottom:-12px;
+	color:rgba(44,44,62,0.5)
+}
+.case--smartly:before {
+	background:#69227e;
+  background:-moz-linear-gradient(90deg,#69227e 0%,#bd3eb9 100%);
+} 
+.hidden-xs {
+    visibility:visible;
+    opacity:1;
+    display:inline
+  }
+.case--smartly:before {
+	background:#69227e;
+	background:-moz-linear-gradient(90deg,#69227e 0%,#bd3eb9 100%);
+	background:-webkit-linear-gradient(90deg,#69227e 0%,#bd3eb9 100%);
+	background:linear-gradient(90deg,#69227e 0%,#bd3eb9 100%)
+}
+.case--tinyowl:before {
+	background:#32fcd7;
+	background:-moz-linear-gradient(-45deg,#32fcd7 0%,#00d2f7 100%);
+	background:-webkit-linear-gradient(-45deg,#32fcd7 0%,#00d2f7 100%);
+	background:linear-gradient(135deg,#32fcd7 0%,#00d2f7 100%)
+}
+.case--babbel:before {
+	background:#ff8132;
+	background:-moz-linear-gradient(-45deg,#ff8132 0%,#ff3200 100%);
+	background:-webkit-linear-gradient(-45deg,#ff8132 0%,#ff3200 100%);
+	background:linear-gradient(135deg,#ff8132 0%,#ff3200 100%)
+}
+.case--gyg:before {
+	background:#ff0083;
+	background:-moz-linear-gradient(-45deg,#ff0083 0%,#ff003b 100%);
+	background:-webkit-linear-gradient(-45deg,#ff0083 0%,#ff003b 100%);
+	background:linear-gradient(135deg,#ff0083 0%,#ff003b 100%)
+}
